@@ -4,6 +4,10 @@
   "description": "An application to display the current opening/closing status of the NYSE.",
   "main": "dist-electron/main.js",
   "homepage": "./",
+  "author": {
+    "name": "clauswobbe",
+    "email": "cw@wobtop.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
