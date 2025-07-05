@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { MarketStatus, MarketEvent } from './types';
+import { MarketStatus } from './types';
 import { getCurrentStatus, getUpcomingEvents, initializeHolidays } from './services/nyseService';
 import { StatusDisplay } from './components/StatusDisplay';
 import { EventCard } from './components/EventCard';
