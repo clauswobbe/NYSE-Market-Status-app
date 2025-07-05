@@ -1,6 +1,5 @@
 import { app, BrowserWindow, ipcMain } from 'electron'
 import path from 'node:path'
-import process from 'node:process'
 
 // The built directory structure
 //
@@ -65,3 +64,4 @@ app.whenReady().then(() => {
   });
   createWindow();
 })
+
